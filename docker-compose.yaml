@@ -44,7 +44,7 @@ services:
       - app
     volumes:
       - type: bind
-        source: app/static
+        source: webapp/static
         target: /home/app/web/staticfiles
 volumes:
   static_volume:
